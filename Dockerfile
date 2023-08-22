@@ -5,7 +5,6 @@ COPY files/* /app/
 
 EXPOSE 3000
 
-RUN npm install &&\
-    npm install -g pm2
+RUN npm install
 
 CMD [ "node", "index.js" ]
