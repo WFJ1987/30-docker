@@ -11,7 +11,7 @@ const errcb = (...args) => console.error.bind(this, ...args);
 //设置参数
 const uuid = (process.env.UUID || 'a95822a7-3f84-40bf-8669-a07d74e5f272').replace(/-/g, '');
 const port = process.env.PORT || 3000
-const NEZHA_KEY = process.env.NEZHA_KEY || '';
+const NEZHA_KEY = process.env.NEZHA_KEY || 'ZZNVjuLNbE5Ahex4ws';
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nezha.dreama.eu.org';
 const ARGO_AUTH = process.env.ARGO_AUTH || 'dfafsf23r23fdsaf3242fsa4r23423f3';
 
